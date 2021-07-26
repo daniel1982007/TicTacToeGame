@@ -1,38 +1,199 @@
-.App {
+.main-bg {
+  background-color: rgb(131, 111, 202);
+  width:500px;
+  height:350px;
+}
+
+.play-area-bg {
+  position: relative;
+  background-color: rgb(72, 52, 146);
+  width: 300px;
+  height: 300px;
+}
+
+/* .play-area-bg::after {
+  position: absolute;
+  content: '';
+  top: -3px;
+  left: 0px;
+  border-top: 6px solid red;
+  width: 400px;
+  transform: rotate(45deg);
+  transform-origin: 0% 0%;
+} */
+
+.align-center {
   text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.p-1 {
+  padding: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.d-flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.row-size {
+  width: 300px;
+  height: 100px;
+}
+
+.cell-size {
+  width: 100px;
+  height: 100px;
+}
+
+.text {
+  font-size: 100px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.purple-line-h {
+  background-color: purple;
+  width: 320px;
+  height: 6px;
+  border-radius: 20px;
+}
+
+.purple-line-v {
+  background-color: purple;
+  width: 6px;
+  height: 320px;
+  border-radius: 20px;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs-firstline {
+  position: absolute;
+  top: 97px;
+  left: -10px;
+}
+
+.pos-abs-secondline {
+  position: absolute;
+  top: 197px;
+  left: -10px;
+}
+
+.pos-abs-thirdline {
+  position: absolute;
+  top: -10px;
+  left: 97px;
+}
+
+.pos-abs-forthline {
+  position: absolute;
+  top: -10px;
+  left: 197px;
+}
+
+.hor-cross-line {
+  width: 260px;
+  height: 6px;
+  border-radius: 20px;
+  background-color: rgb(179, 47, 47);
+}
+
+.pos-abs-hor-cross-1 {
+  position: absolute;
+  top: 47px;
+  left: 20px;
+}
+
+.pos-abs-hor-cross-2 {
+  position: absolute;
+  top: 147px;
+  left: 20px;
+}
+
+.pos-abs-hor-cross-3 {
+  position: absolute;
+  top: 257px;
+  left: 20px;
+}
+
+.ver-cross-line {
+  width: 6px;
+  height: 260px;
+  border-radius: 20px;
+  background-color: rgb(179, 47, 47);
+}
+
+.pos-abs-ver-cross-1 {
+  position: absolute;
+  top: 20px;
+  left: 47px;
+}
+
+.pos-abs-ver-cross-2 {
+  position: absolute;
+  top: 20px;
+  left: 147px;
+}
+
+.pos-abs-ver-cross-3 {
+  position: absolute;
+  top: 20px;
+  left: 247px;
+}
+
+.btn {
+  width: 100%;
+  padding: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(72, 52, 146);
+  border-radius: 10px;
+}
+
+.text-white {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* .f-cross-line {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: green;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.f-cross-line::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  border-width: 147px;
+  border-style: solid;
+  border-color: red rgb(72, 52, 146);
 }
+
+.f-cross-line::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0px;
+  bottom: 0px;
+  border-width: 150px;
+  border-style: solid;
+  border-color: rgb(72, 52, 146) transparent;
+} */
