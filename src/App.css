@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .main-bg {
   background-color: rgb(131, 111, 202);
   width:500px;
@@ -14,9 +19,9 @@
 /* .play-area-bg::after {
   position: absolute;
   content: '';
-  top: -3px;
-  left: 0px;
-  border-top: 6px solid red;
+  top: 10px;
+  left: 10px;
+  border-top: 6px solid rgb(179, 47, 47);
   width: 400px;
   transform: rotate(45deg);
   transform-origin: 0% 0%;
@@ -197,3 +202,48 @@
   border-style: solid;
   border-color: rgb(72, 52, 146) transparent;
 } */
+.bg {
+  position: relative;
+}
+
+.modal_bg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: grey;
+}
+
+.modal_window {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.username {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 20px;
+  outline: none;
+  border: darkblue 2px solid;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.close_btn {
+  font-size: 24px;
+  align-self: flex-end;
+}
